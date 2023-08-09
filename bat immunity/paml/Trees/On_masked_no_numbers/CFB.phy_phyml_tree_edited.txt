@@ -1,0 +1,1 @@
+(myotis_lucifugus,myotis_myotis,(pipistrellus_kuhlii,(molossus_molossus,(phylostomus_discolor,((Rousettus_aegyptiacus,pteropus_vampirus),(rhinolophus_ferrumequinum,Hipposideros_galeritus))))));

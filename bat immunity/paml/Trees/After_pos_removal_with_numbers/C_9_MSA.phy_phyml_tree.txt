@@ -1,0 +1,1 @@
+(Rousettus_aegyptiacus:0.03823628,pteropus_vampirus:0.01887564,(rhinolophus_ferrumequinum:0.08975126,((phylostomus_discolor:0.09862089,Artibeus_jamaicensis:0.02673275):0.08848803,(molossus_molossus:0.15112288,(myotis_lucifugus:0.02126768,(pipistrellus_kuhlii:0.00000001,myotis_myotis:0.00000001):0.01594519):0.06802395):0.02168419):0.05613260):0.04213727);
