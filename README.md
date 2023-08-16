@@ -13,7 +13,7 @@ trajectory analysis using velocyto.
 
 3) cell2location folder contains scripts for using cell2location for cell type mapping using the spatial and single-cell transcriptomics data.
 
-4) cross-species folder contains scripts for integrating cross-species datasets and performing correlation analysis of cell transcriptomes.
+4) cross_species folder contains scripts for integrating cross-species datasets and performing correlation analysis of cell transcriptomes.
 
 5) differential_expression folder contains scripts for conducting DE analyses for both signle-cell and pseudobulk data.
 
