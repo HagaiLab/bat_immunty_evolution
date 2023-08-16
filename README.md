@@ -9,14 +9,14 @@ The scripts and documentations in this directory allow reproducing the processin
 1) sc-rna-seq folder contains scripts for processing RNAseq using 10X CellRanger pipeline, as well as spatial data processing using 10X SpaceRanger and 
 trajectory analysis using velocyto.
 
-2) EggNOG folder contains scripts for runnig EggNOG annotations mapper and processing its results for producing orthology relations between species. 
+2) EggNOG folder contains scripts for running EggNOG orthology annotation mapper and processing its results for producing orthology relationship between species. 
 
-3) cell2location folder contains scripts for using cell2location for cell type mapping in spatial transcriptomics.
+3) cell2location folder contains scripts for using cell2location for cell type mapping using the spatial and single-cell transcriptomics data.
 
-4) cross-species folder contains scripts for integrating cross-species datasets and performing correlation analysis of them.
+4) cross-species folder contains scripts for integrating cross-species datasets and performing correlation analysis of cell transcriptomes.
 
-5) differential_expression folder contains scripts for conducting DE analyses for both signle-cell and bulk data.
+5) differential_expression folder contains scripts for conducting DE analyses for both signle-cell and pseudobulk data.
 
-6) coding_sequence_evolution folder contains a pipeline for running positive selection analysis on multi-sequense alighnment data.
+6) coding_sequence_evolution folder contains a pipeline for running positive selection analysis of coding sequences based on multi-sequense alighnment data of complement genes with orthologs from different bat species.
 
-7) figures folder contains scripts for reproducing the main plots.
+7) figures folder contains scripts for reproducing main plots.
