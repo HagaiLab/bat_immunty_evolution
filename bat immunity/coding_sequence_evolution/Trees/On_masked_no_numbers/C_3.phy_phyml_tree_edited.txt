@@ -1,1 +1,0 @@
-(pteropus_vampirus,myotis_lucifugus,(phylostomus_discolor,(Artibeus_jamaicensis,((Rousettus_aegyptiacus,(rhinolophus,Hipposideros_galeritus)),(molossus_molossus,myotis_myotis)))));

@@ -1,6 +1,0 @@
-
-# installation, Documentation and Usage of EggNOG's emapper.py can be found in: https://github.com/eggnogdb/eggnog-mapper/tree/master
-
-# an example command line for running EggNOG's emapper.py on CDS fasta file of Rhinolophus_sinicus using EggNOG DB version 2.1.2:
-
-emapper.py  --data_dir eggnog/database_2_1_2/ --cpu 6 -i /eggnog/genoms/bats/Rhinolophus_sinicus.fa --itype CDS --output rs_query_1.fa --sensmode very-sensitive --report_orthologs --output_dir /eggnog/results_bats/rs/ -m diamond -d none --tax_scope 40674 --go_evidence non-electronic --target_orthologs all --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query_cover 20 --subject_cover 0 --override --translate --scratch_dir /eggnog/bats_scratch --temp_dir eggnog/tmp_07_03

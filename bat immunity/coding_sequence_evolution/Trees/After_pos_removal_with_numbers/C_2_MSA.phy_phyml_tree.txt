@@ -1,1 +1,0 @@
-(phylostomus_discolor:0.02969893,Artibeus_jamaicensis:0.02730442,((molossus_molossus:0.06517692,(myotis_myotis:0.03087914,pipistrellus_kuhlii:0.14476983):0.04116378):0.02316586,(Rousettus_aegyptiacus:0.05933201,rhinolophus_ferrumequinum:0.06162329):0.02092355):0.03515004);
