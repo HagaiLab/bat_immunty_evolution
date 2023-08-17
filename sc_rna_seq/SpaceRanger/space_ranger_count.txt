@@ -1,0 +1,12 @@
+# pipeline for processing spatial data using 10X Genomics SpaceRanger:
+
+# Installation guide and Documentation can be found here: https://support.10xgenomics.com/spatial-gene-expression/software/pipelines/latest/what-is-space-ranger
+
+# all steps up to "count" are used in the same manner as with CellRanger (bs download, mkfastq, mkref)
+
+# run count for creating count matrices:
+spaceranger count --id=Mapping --transcriptome=/ref_genomes/bat_bat1k/bat_bat1k_genome_25_10/ --fastqs=/Bat/fastq_sc_exp_247547311_v1/outs/fastq_path/ --sample=A_bat9_2 --image=/Bat/A_BAT9_2.tif --slide=V11T09-002 --area=A1 
+
+
+		
+
