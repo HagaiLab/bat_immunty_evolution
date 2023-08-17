@@ -6,6 +6,10 @@ import anndata as ad
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+"""
+This script clusters and plotts the expression of top 100 genes from each state among all 3-states cells.
+Plotting is done using sns.clustermap 
+"""
 
 # Load h5ad data
 bat1k_all_data = sc.read(r"C:\Users\TzachiHNB6\Documents\annotated_count_matrices\bat\blood\bat_mouse_integration\PBMCs_annotated_raw_bat1k\PBMCs_annotated_raw_bat1k.h5ad")
