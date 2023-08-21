@@ -1,4 +1,3 @@
-
 Order of pipeline
 ============================================================================================
 some of the steps are done using bash scripts and some using Python scripts
