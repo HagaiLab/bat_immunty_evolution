@@ -8,7 +8,7 @@ some of the steps are done using bash scripts and some using Python scripts
 
 3) Optional: run masking of residues (mask_low_score_residues.txt)
 
-4) Convert MSA file (masked of unmasked) to phylip (convert_fasta_to_phylip.py)
+4) Convert MSA file  - masked or unmasked - to phylip (convert_fasta_to_phylip.py)
 	
 5) Optional: create phylogenetic tree(s) with phyml (tree_with_phyml.txt) / use your own tree(s)
 
