@@ -1,8 +1,11 @@
 import sys
 from Bio import SeqIO
 
+# Convert input MSA file (without masking - MSA.MAFFT.Without_low_SP_Col.With_Names, with masking - masking result)
+
+
 # usage
-USAGE = "\nusage: python convert_fasta2phylip.py [input fasta file] [output phy file]\n"
+USAGE = "\nusage: python convert_fasta_to_phylip.py [input fasta file] [output phy file]\n"
 
 if len(sys.argv) !=3:
     print(USAGE)

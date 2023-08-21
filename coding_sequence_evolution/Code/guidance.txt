@@ -1,0 +1,13 @@
+#!/bin/bash
+# here we run GUIDANCE2 for Multiple Sequence Alignment (MSA) with assigning a confidence score for each residue, column, and sequence.
+# installation, Documentation and Usage of GUIDANCE can be found in: http://guidance.tau.ac.il/
+
+ComplementGenes=("C1S" "C_6" "C_3" "C8g" "C_9" "C8b" "C_2" "C_7" "C_5" "CFI" "CFD" "C8a" "C1R" "CFB")
+
+cd /powerapps/share/guidance.v2.02/www/Guidance/
+
+for VARIABLE in ${ComplementGenes[@]}
+do
+	guidance.pl --seqFile /tzachi_storage/yanl/bat_genes/$VARIABLE.txt --program GUIDANCE2 --seqType codon --msaProgram MAFFT --outDir /tzachi_storage/yanl/bat_genes/MSA/$VARIABLE;
+
+done;

@@ -1,13 +1,8 @@
-#!/bin/bash
-#PBS -q adistzachi
-#PBS -l nodes=4:ppn=4,mem=4gb,pmem=4gb,vmem=4gb,pvmem=4gb
 
-
-
+# here we craete phylogenetic tree from MSA files using PhyML
+# installatrion, documentation of PhyML:  http://www.atgc-montpellier.fr/phyml/usersguide.php
 
 cd /tzachi_storage/yanl/bat_genes/Masked_MSA/Phy
-
-module load PhyML/3.1
 
 for file in *.phy; do
     output_file="/tzachi_storage/yanl/bat_genes/Masked_MSA/Tree/$(basename "$file").phyml"

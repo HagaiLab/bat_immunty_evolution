@@ -1,0 +1,16 @@
+#!/bin/bash
+# here we run masking of low-scored residues scored by GUIDANCE.
+
+input_dir="/tzachi_storage/dafnatc/positive_selection/ACE2_bats/MSA" # GUIDANCE result folder
+output_dir="/tzachi_storage/dafnatc/guidance_mask_results" # create the folder first
+
+cd "/powerapps/share/guidance.v2.02/www/Guidance/"
+
+for entry in "$input_dir"/*
+do
+        msa_file=$entry/"MSA.MAFFT.aln.With_Names"
+        echo $msa_file
+        score_file=$entry/"MSA.MAFFT.Guidance2_res_pair_res.scr"
+        out_file=$output_dir/"$(basename "$entry")".txt
+        perl maskLowScoreResidues.pl $msa_file $score_file $out_file 0.9 nuc
+done
