@@ -12,9 +12,9 @@ some of the steps are done using bash scripts and some using Python scripts
 	
 5) Optional: create phylogenetic tree(s) with phyml (tree_with_phyml.txt) / use your own tree(s)
 
-6) Adjust tree for PAML use( tree_remove_numbers.py)
+6) Adjust tree for PAML use (tree_remove_numbers.py)
 
 7) Create .ctl configuration file(s) for PAML (create_codeml_ctl_files.py)
 	
-8) run PAML's codeml(run_codeml.py)
+8) run PAML's codeml (run_codeml.py)
 	
