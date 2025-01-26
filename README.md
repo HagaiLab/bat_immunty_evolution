@@ -4,6 +4,9 @@ Spatial and single-cell transcriptomics illuminate bat immunity and barrier tiss
 This directory contains data files and scripts related to our work: 
 "Spatial and single-cell transcriptomics illuminate bat immunity and barrier tissue evolution".
 
+Roy Levinger, Dafna Tussia-Cohen, Sivan Friedman, Yan Lender, Yomiran Nissan, Evgeny Fraimovitch, Yuval Gavriel, Jacqueline Tearle, Aleksandra A Kolodziejczyk, Kyung-Mee Moon, Tomás Gomes, Natalia Kunowska, Maya Weinberg, Giacomo Donati, Leonard J Foster, Kylie R James, Yossi Yovel, Tzachi Hagai, Single-cell and spatial transcriptomics illuminate bat immunity and barrier tissue evolution, Molecular Biology and Evolution, 2025;, msaf017, https://doi.org/10.1093/molbev/msaf017
+
+
 The scripts and documentations in this directory allow reproducing the processing of raw sc RNAseq ,the statistical analysis and the main plots. 
 
 1) sc-rna-seq folder contains scripts for processing RNAseq using 10X CellRanger pipeline, as well as spatial data processing using 10X SpaceRanger and 
